@@ -1,0 +1,7 @@
+[Unit]
+Description=Log IP to server
+
+[Service]
+User=nobody
+Type=oneshot
+ExecStart=/bin/curl --max-time 5 -H 'magic: {PUT_YOUR_KEY_HERE}' -X POST https://{DOMAIN}/log/{IP_OWNER}

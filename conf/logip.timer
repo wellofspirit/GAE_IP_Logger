@@ -1,0 +1,8 @@
+[Unit]
+Description=Send IP to Server
+
+[Timer]
+OnCalendar=*:0/5
+
+[Install]
+WantedBy=network-online.target
