@@ -1,4 +1,4 @@
-# IP Logger
+# GAE IP Logger
 A simple GAE based IP Logger application
 
 ## Features
